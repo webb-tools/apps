@@ -158,6 +158,7 @@
   "rpc.rococo.moonrock": "Moonrock",
   "rpc.rococo.moonsama": "Moonsama",
   "rpc.rococo.origintrail": "OriginTrail Parachain",
+  "rpc.rococo.pangolin": "Pangolin",
   "rpc.rococo.parami": "Parami PC2",
   "rpc.rococo.phala": "Phala PC1",
   "rpc.rococo.phoenix": "PHOENIX PC1",
