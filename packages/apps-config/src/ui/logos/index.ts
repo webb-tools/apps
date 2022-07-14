@@ -209,7 +209,7 @@ import nodeZCloak from './nodes/zCloak.svg';
 import nodeZeitgeist from './nodes/zeitgeist.png';
 import nodeZenlink from './nodes/zenlink.svg';
 import nodeZero from './nodes/zero.svg';
-import nodeWebb from './webb.png';
+import nodeWebb from './nodes/webb.png';
 import emptyLogo from './empty.svg';
 
 // last-resort fallback, just something empty
@@ -421,7 +421,8 @@ export const chainLogos = Object.entries({
   Westmint: nodeStatemine,
   'Westmint Test': nodeStatemine,
   WILT: nodeKilt,
-  'zcloak poc1': nodeZCloak
+  'zcloak poc1': nodeZCloak,
+  Webb: nodeWebb,
 }).reduce<Record<string, unknown>>((logos, [chain, logo]) => ({
   ...logos,
   [sanitize(chain)]: logo
