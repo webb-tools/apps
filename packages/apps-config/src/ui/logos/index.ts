@@ -209,7 +209,9 @@ import nodeZCloak from './nodes/zCloak.svg';
 import nodeZeitgeist from './nodes/zeitgeist.png';
 import nodeZenlink from './nodes/zenlink.svg';
 import nodeZero from './nodes/zero.svg';
+import nodeWebb from './webb.png';
 import emptyLogo from './empty.svg';
+
 // last-resort fallback, just something empty
 
 // Alphabetical overrides based on the actual matched chain name

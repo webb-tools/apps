@@ -154,6 +154,8 @@ const chainWestlake = 'linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 
 const chainWhala = '#03f3f3';
 const chainZero = '#000000';
 const chainZenlink = 'linear-gradient(45deg, #F20082 0%, #FF4D4D 100%)';
+const chainWebb = '#3351F2';
+
 // based on node name
 // alphabetical
 const nodeAjuna = '#161212';
@@ -233,6 +235,7 @@ const nodeZero = '#0099cc';
 const nodeZenlink = 'linear-gradient(45deg, #F20082 0%, #FF4D4D 100%)';
 const nodeSubGame = '#EB027D';
 const nodeZCloak = 'linear-gradient(to right, #E89A76 0%, #C5B8CC 50%, #B0B4D7 100%)';
+const nodeWebb = '#3351F2';
 
 // based on the spec name
 const specShell = '#2e86ab'; // '#0596FC';
@@ -461,7 +464,9 @@ export const chainColors: Record<string, string> = Object.entries({
   WILT: chainKilt,
   'zcloak poc1': nodeZCloak,
   'Zenlink PC1': chainZenlink,
-  'ZERO.IO': chainZero
+  'ZERO.IO': chainZero,
+  Webb: chainWebb,
+   'Eggnet Node': nodeWebb,
 }).reduce<Record<string, string>>((colors, [chain, color]) => ({
   ...colors,
   [sanitize(chain)]: color
@@ -574,7 +579,8 @@ export const nodeColors = Object.entries({
   'zcloak node': nodeZCloak,
   'Zeitgeist Collator': nodeZeitgeist,
   'Zeitgeist Node': nodeZeitgeist,
-  'Zenlink Collator': nodeZenlink
+  'Zenlink Collator': nodeZenlink,
+  'Eggnet Node': nodeWebb,
 }).reduce<Record<string, string>>((colors, [node, color]) => ({
   ...colors,
   [sanitize(node)]: color

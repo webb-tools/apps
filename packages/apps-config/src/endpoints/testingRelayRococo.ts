@@ -243,7 +243,15 @@ export const testParasRococo: EndpointOption[] = [
     providers: {
       Zeitggeist: 'wss://roc.zeitgeist.pm'
     }
-  }
+  },
+  {
+    info: 'rococoEggnet',
+    paraId: 4006,
+    text: 'Webb Rococo Parachain',
+    providers: {
+      Webb: 'wss://rococo1.webb.tool'
+    }
+  },
 ];
 
 export const testParasRococoCommon: EndpointOption[] = [
